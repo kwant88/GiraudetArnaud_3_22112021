@@ -83,6 +83,17 @@
     cursor: pointer;
 }
 
+.explore-button:hover {
+    box-shadow: 10px 5px 5px grey;
+    background :linear-gradient(#F9A9E3, #B277F9);
+    -webkit-transform: scale(1.05); /* Safari et Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* Internet Explorer */
+  -o-transform: scale(1.05); /* Opera */
+    transform: scale(1.05);
+    cursor : pointer
+}
+
 .how-it-works-container {
     display: flex;
     flex-direction: column;
@@ -110,6 +121,17 @@
     margin: .73rem 0;
     font-weight: 600;
     cursor: pointer;
+}
+
+.how-it-works-button:hover {
+    box-shadow: 10px 8px 8px grey;
+    background :linear-gradient(#f1f1f1);
+      -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer  */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+
 }
 
 .how-it-works-button-pink {
@@ -199,6 +221,16 @@
     margin: 0rem 1.3rem 1.3rem 1.3rem;
 }
 
+.restaurants-listings:hover {
+box-shadow: 10px 8px 8px grey;
+background :color(#ffffff)
+      -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer  */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
 .restaurants-listings-crop {
     height: 10.9rem;
     object-fit: cover;
@@ -251,6 +283,8 @@
     background: #99E2D0;
 }
 
+/*survol coeurs*/
+
 .restaurants-listings-heart {
     color: transparent;
     position: relative;
@@ -295,8 +329,10 @@
     padding: 0 .8rem 0 0;
 }
 
+/* versions responsives*/
 
 @media (min-width: 600px) {
+
     .explore-button {
         width: 44vw;
         max-width: 400px;
