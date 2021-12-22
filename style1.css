@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
 }
 /* anim spinner */
@@ -550,6 +550,8 @@ background :color(#ffffff)
     justify-content: center;
 }
 
+/* icone commande cachée par defaut/visible au survol*/
+
 .menu-item-container .icon-container {
     overflow: hidden;
     padding: .7rem 0;
@@ -560,6 +562,53 @@ background :color(#ffffff)
 .menu-item-container:hover .icon-container {
     padding: 0 1.8rem;
     width: .51rem;
+}
+
+/*rotation iône + durée*/
+
+.menu-item-container .icon-container {
+    -webkit-transition: all 0.55s;
+}
+
+.menu-item-container:hover .slow-spin {
+    transition: .7s;
+    transform: rotate(360deg);
+}
+/* bouton commande*/
+
+.commande-button:hover {
+    cursor: pointer;
+}
+
+.commande-button {
+    padding: 1rem 4.5rem;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 3px 20px -9px rgba(0, 0, 0, .5);
+    transform: translateY(-9px);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.restaurant-menu-commande {
+    display: flex;
+    justify-content: center;
+    background: #f6f6f6;
+    padding: 3rem 3rem 3.75rem 3rem;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* versions responsives*/
@@ -601,7 +650,7 @@ background :color(#ffffff)
         font-size: 16px;
     }
 
-    .order-button {
+    .commande-button {
         width: 44vw;
         max-width: 300px;
         max-height: 60px;
