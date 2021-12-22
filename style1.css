@@ -157,7 +157,8 @@
   -ms-transform: scale(1.05); /* Internet Explorer */
   -o-transform: scale(1.05); /* Opera */
     transform: scale(1.05);
-    cursor : pointer
+    cursor : pointer;
+    transition: 1s;
 }
 
 .how-it-works-container {
@@ -251,7 +252,7 @@
 
 .button-numbers-text {
     position: absolute;
-    margin-left: -4px;
+    margin-left: -7px;
     margin-top: 5px;
     font-weight: 700;
     font-size: 13px;
