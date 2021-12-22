@@ -192,7 +192,7 @@
 
 .how-it-works-button:hover {
     box-shadow: 10px 8px 8px grey;
-    background :linear-gradient(#f1f1f1);
+    background :#f1f1f1;
       -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* Internet Explorer  */
@@ -376,6 +376,7 @@ background :color(#ffffff)
     background: #090808;
     padding: 1.7rem 1.5rem;
     line-height: 27px;
+    text-decoration: none;
 }
 
 .footer-image {
@@ -412,6 +413,12 @@ background :color(#ffffff)
     max-width: 300px;
     padding: 0 0 .5rem 0;
 }
+
+.footer-contact {
+color:white;
+text-decoration: none;
+}
+
 
 /*partie graphiques menus*/
 
@@ -577,9 +584,6 @@ background :color(#ffffff)
 }
 /* bouton commande*/
 
-.commande-button:hover {
-    cursor: pointer;
-}
 
 .commande-button {
     padding: 1rem 4.5rem;
@@ -588,9 +592,21 @@ background :color(#ffffff)
     border: none;
     border-radius: 50px;
     box-shadow: 0 3px 20px -9px rgba(0, 0, 0, .5);
-    transform: translateY(-9px);
+    transform: translateY(-2px);
     font-weight: 500;
     font-size: 15px;
+}
+
+.commande-button:hover {
+      box-shadow: 10px 5px 5px grey;
+    background :linear-gradient(#F9A9E3, #B277F9);
+    -webkit-transform: scale(1.03); /* Safari et Chrome */
+  -moz-transform: scale(1.03); /* Firefox */
+  -ms-transform: scale(1.03); /* Internet Explorer */
+  -o-transform: scale(1.03); /* Opera */
+    transform: scale(1.03);
+    cursor : pointer;
+    transition: 1s;
 }
 
 .restaurant-menu-commande {
