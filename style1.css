@@ -529,6 +529,11 @@ text-decoration: none;
 .menu-item-container_8 {
     animation-delay: 5.7s;
 }
+
+.menu-item-container_9 {
+    animation-delay: 6.1s;
+}
+
 .menu-item-container:hover {
     cursor: pointer;
 }
