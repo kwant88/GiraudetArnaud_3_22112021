@@ -290,7 +290,7 @@
 
 .restaurants-listings:hover {
 box-shadow: 10px 8px 8px grey;
-background :color(#ffffff)
+background :#ffffff;
       -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* Internet Explorer  */
