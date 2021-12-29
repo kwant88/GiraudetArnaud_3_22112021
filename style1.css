@@ -160,6 +160,7 @@
     cursor : pointer;
     transition: 1s;
 }
+/*fonctionnement cadre*/
 
 .how-it-works-container {
     display: flex;
@@ -258,6 +259,7 @@
     font-size: 13px;
     color: white;
 }
+/* listing resto*/
 
 .restaurants-container {
     display: flex;
@@ -486,6 +488,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
 }
+/* fondu plats*/
 
 .menu-item-container {
     margin: .8rem .9rem;
@@ -496,42 +499,42 @@ text-decoration: none;
     box-shadow: 0 3px 15px -8px rgba(0, 0, 0, .5);
     animation: 1s fadeIn ease-out;
     animation-fill-mode: backwards;
-    animation-delay: 2.5s;
+    animation-delay: 0.5s;
 }
 .menu-item-container_1 {
-    animation-delay: 2.9s;
+    animation-delay: 0.7s;
 }
 
 .menu-item-container_2 {
-    animation-delay: 3.3s;
+    animation-delay: 0.9s;
 }
 
 .menu-item-container_3 {
-    animation-delay: 3.7s;
+    animation-delay: 1.1s;
 }
 
 .menu-item-container_4 {
-    animation-delay: 4.1s;
+    animation-delay: 1.3s;
 }
 
 .menu-item-container_5 {
-    animation-delay: 4.5s;
+    animation-delay: 1.5s;
 }
 
 .menu-item-container_6 {
-    animation-delay: 4.9s;
+    animation-delay: 1.7s;
 }
 
 .menu-item-container_7 {
-    animation-delay: 5.3s;
+    animation-delay: 1.9s;
 }
 
 .menu-item-container_8 {
-    animation-delay: 5.7s;
+    animation-delay: 2.1s;
 }
 
 .menu-item-container_9 {
-    animation-delay: 6.1s;
+    animation-delay: 2.3s;
 }
 
 .menu-item-container:hover {
